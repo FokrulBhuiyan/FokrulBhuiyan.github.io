@@ -1,0 +1,59 @@
+<div id="ajax-page" class="ajax-page-content">
+    <div class="ajax-page-wrapper">
+        <div class="ajax-page-nav">
+            <div class="nav-item ajax-page-prev-next">
+                <a class="ajax-page-load" href="portfolios/portfolio-dropshipping-app.html"><i class="lnr lnr-chevron-left"></i></a>
+                <a class="ajax-page-load" href="portfolios/portfolio-us-crime-analysis.html"><i class="lnr lnr-chevron-right"></i></a>
+            </div>
+            <div class="nav-item ajax-page-close-button">
+                <a id="ajax-page-close-button" href="#"><i class="lnr lnr-cross"></i></a>
+            </div>
+        </div>
+
+        <div class="ajax-page-title">
+            <h1>Image-Processing Line Follower Robot</h1>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12 col-md-12 portfolio-block">
+                <div class="portfolio-page-image">
+                    <img src="img/portfolio/IOT 1.jpg" alt="Raspberry Pi image-processing line follower robot" />
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12 col-md-12 portfolio-block">
+                <div class="project-description">
+                    <div class="block-title">
+                        <h3>Summary</h3>
+                    </div>
+
+                    <p class="text-justify">This project involved building an image-processing line-follower robot using a Raspberry Pi. The original goal was to create a robot that could capture top-down views, detect obstacles, calculate object distances, and navigate from a source to a destination using the shortest path. The final implementation focused on an image-processing line follower with an attempt to integrate shortest-path behavior.</p>
+
+                    <p class="text-justify">The robot used a Raspberry Pi, Pi Camera, motor driver, left and right motors, 12V battery, and switch. Instead of traditional infrared sensors, it relied on the Pi Camera video stream to identify the path and determine movement direction.</p>
+
+                    <p class="text-justify">The software stack included Raspbian Buster, Python, RPi.GPIO, Picamera, OpenCV, Numpy, and Time. The vision pipeline defined a region of interest, detected black path regions, and used OpenCV processing such as Gaussian blur, thresholding, erosion, dilation, contour detection, and image moments to calculate x-axis and y-axis centroids for motor control.</p>
+
+                    <p class="text-justify">A key technical challenge was making the robot robust against shadows and grey zones by using edge-detection-oriented computer vision techniques rather than relying only on grayscale thresholding, while exploring how the robot could travel available paths to identify the shortest route.</p>
+
+                    <div class="tags-block">
+                        <div class="block-title">
+                            <h3>Technology</h3>
+                        </div>
+                        <ul class="tags">
+                            <li><a>Raspberry Pi</a></li>
+                            <li><a>Pi Camera</a></li>
+                            <li><a>Python</a></li>
+                            <li><a>OpenCV</a></li>
+                            <li><a>RPi.GPIO</a></li>
+                            <li><a>Numpy</a></li>
+                            <li><a>Computer Vision</a></li>
+                            <li><a>Robotics</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

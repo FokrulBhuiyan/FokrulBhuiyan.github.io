@@ -6,4 +6,4 @@ $('.menu-toggle').on("click",function(){$('#site_header').addClass('animate');$(
 '<div class="mfp-close"></div>'+
 '<iframe class="mfp-iframe" frameborder="0" allowfullscreen></iframe>'+
 '<div class="mfp-title mfp-bottom-iframe-title"></div>'+
-'</div>',patterns:{youtube:{index:'youtube.com/',id:null,src:'%id%?autoplay=1'},vimeo:{index:'vimeo.com/',id:'/',src:'//player.vimeo.com/video/%id%?autoplay=1'},gmaps:{index:'//maps.google.',src:'%id%&output=embed'}},srcAction:'iframe_src',},callbacks:{markupParse:function(template,values,item){values.title=item.el.attr('title');}},});});})(jQuery);
+'</div>',patterns:{youtube:{index:'youtube.com/',id:null,src:'%id%?autoplay=1'},vimeo:{index:'vimeo.com/',id:'/',src:'//player.vimeo.com/video/%id%?autoplay=1'},gmaps:{index:'//maps.google.',src:'%id%&output=embed'}},srcAction:'iframe_src',},callbacks:{markupParse:function(template,values,item){values.title=item.el.attr('title');}},});});})(jQuery); 
